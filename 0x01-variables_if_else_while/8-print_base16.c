@@ -3,16 +3,15 @@
 /**
  * main - Entry point
  *
- * Description: 'Prints out alphabets'
+ * Description: 'Prints numbers with print char'
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	for (int a = 0; a < 16; a+!)
+		putchar(a + '0')
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
 
 	putchar('\n');
 

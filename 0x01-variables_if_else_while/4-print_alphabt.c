@@ -15,5 +15,7 @@ int main(void)
 	while (ch <= 'z' && ch != 'q' && ch != 'e')
 		putchar(char);
 
+	putchar('\n');
+
 	return (0);
 }
