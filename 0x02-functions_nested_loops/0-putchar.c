@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * putchar - Entry point
  *
@@ -7,5 +8,8 @@
  */
 int putChar(void)
 {
+	char a[] = "_putchar";
+	_putchar(a);
+
 	return (0);
 }
