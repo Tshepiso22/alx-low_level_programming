@@ -9,12 +9,13 @@
  */
 int main(void)
 {
-	int a3 = 3, a5 = 5, sum3 = 0, sum5 = 0;
+	int a3 = 0, a5 = 0, sum3 = 0, sum5 = 0;
 
 	while (a3 < 1024)
 	{
 		a3 = a3 + 3;
-		sum3 = sum3 + a3;	
+		if ((a3 % 5) != 0)
+			sum3 = sum3 + a3;
 	}
 
 	while (a5 < 1024)
