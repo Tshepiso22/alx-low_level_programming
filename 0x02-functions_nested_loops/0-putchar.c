@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int putChar(void)
+void putChar(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -15,6 +15,5 @@ int putChar(void)
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
-	_putchar('r);
-	return (0);
+	_putchar('r');
 }
