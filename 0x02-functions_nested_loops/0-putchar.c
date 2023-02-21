@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * putchar - Entry point
+ * main - Entry point
  *
  * Description: 'Will call out puchar'
  *
  * Return: Always 0 (Success)
  */
-void putchar(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -16,4 +16,6 @@ void putchar(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+
+	return (0);
 }
