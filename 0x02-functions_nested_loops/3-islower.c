@@ -1,6 +1,6 @@
 /**
  * _islower - Entry point
- * @int c - The function receivws an int c parameter
+ * @c: The number tgat is passed to the function
  *
  * Description: 'Checks if is lower case'
  *
