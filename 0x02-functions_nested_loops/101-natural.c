@@ -21,7 +21,7 @@ int main(void)
 	while (a5 < 1024)
 	{
 		a5 = a5 + 5;
-		sum5 = sum5 + a3;	
+		sum5 = sum5 + a5;
 	}
 	printf("%d\n", (sum5 + sum3));
 
