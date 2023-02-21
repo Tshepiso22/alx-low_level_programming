@@ -1,5 +1,7 @@
 /**
  * add - Entry point
+ * @a: First operand
+ * @b: Second operand
  *
  * Deacription: Receives two numbers and add them
  *

@@ -1,5 +1,6 @@
 /**
  * _isalpha - Entry point
+ * @c: Receives c as argument
  *
  * Description: 'Checks if input is a character'
  *

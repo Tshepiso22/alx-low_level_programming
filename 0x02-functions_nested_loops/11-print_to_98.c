@@ -1,7 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - Entry point
+ * @n: Receivs this as argument
  *
  * Description: 'Prints numbers from n to 98
  *
@@ -14,20 +16,20 @@ void print_to_98(int n)
 	{
 		for( ; n > 98; n--)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');	
+			printf(n);
+			printf(',');
+			printf(' ');
 		}
 	}
 	else if (n < a)
 	{
 		for ( ;n < a; n++)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
+			printf(n);
+			printf(',');
+			printf(' ');
 		}
 	}
-	
-	_putchar(a);
-}	
+
+	printf(a);
+}
