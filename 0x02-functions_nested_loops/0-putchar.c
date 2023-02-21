@@ -15,7 +15,7 @@ int putChar(void)
 	_putchat('h');
 	_putchar('a');
 	_putchar('r');
-	_putchat('\n');
+	_putchar('\n');
 
 	return (0);
 }
