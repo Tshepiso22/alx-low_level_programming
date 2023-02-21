@@ -1,6 +1,6 @@
 /**
  * _islower - Entry point
- * @c - The function receivws an int c parameter
+ * @int c - The function receivws an int c parameter
  *
  * Description: 'Checks if is lower case'
  *
