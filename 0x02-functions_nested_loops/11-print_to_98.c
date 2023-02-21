@@ -23,7 +23,7 @@ void print_to_98(int n)
 	}
 	else if (n < a)
 	{
-		for ( ;n < a; n++)
+		for ( ; n < a; n++)
 		{
 			printf("%d", n);
 			printf(",");
@@ -31,5 +31,5 @@ void print_to_98(int n)
 		}
 	}
 
-	printf("%d", a);
+	printf("%d\n", a);
 }
