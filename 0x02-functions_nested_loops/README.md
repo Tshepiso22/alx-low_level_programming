@@ -1,0 +1,1 @@
+Fuctions amd nested loops
