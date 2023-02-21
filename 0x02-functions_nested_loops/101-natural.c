@@ -11,7 +11,7 @@ int main(void)
 {
 	int a3 = 3, a5 = 5;
 
-	while (a < 1024)
+	while (a3 < 1024)
 	{
 		a3 = a3 + 3;
 	}
@@ -20,7 +20,7 @@ int main(void)
 	{
 		a5 = a5 + 5;
 	}
-	printf("d%\n", a5 + 3);
+	printf("%d\n", (a5 + a3));
 
 	return (0);
 }
