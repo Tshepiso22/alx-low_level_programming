@@ -26,7 +26,7 @@ void print_times_table(int n)
 			}
 			else if ((a * b) < 100 && (a * b) > 9)
 			{
-				_putchar((a * b) + '0')
+				_putchar((a * b) + '0');
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');	
@@ -39,6 +39,4 @@ void print_times_table(int n)
 			}
 		}
 	}
-	return (0);
-	
-}d
+}
