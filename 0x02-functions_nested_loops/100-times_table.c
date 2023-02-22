@@ -12,10 +12,12 @@ void print_times_table(int n)
 {
 	int a, b;
 	
-	for( a = 0; a < n; a++)
-	{
-		for (b = 0; b < n; b++)
+	for (a = 0; a =< n; a++)
+	{	
+		for (b = 0; b =< n; b++)
 		{
+			if (a == n && b == n)
+				break();	
 			if ((a * b) < 10)
 			{
 				_putchar((a * b) + '0');
@@ -36,7 +38,9 @@ void print_times_table(int n)
 				_putchar((a * b) + '0');
 				_putchar(',');
 				_putchar(' ');
+	
 			}
+			_putchar('\n');
 		}
 	}
 }
