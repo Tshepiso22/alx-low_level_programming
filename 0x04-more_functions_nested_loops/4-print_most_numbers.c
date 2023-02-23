@@ -14,6 +14,6 @@ void print_most_numbers
 	for ( ; a <= '9'; a++)
 	{
 		if (a != '2' || a != '4')
-			_putchar(a)
+			_putchar(a);
 	}
 }
