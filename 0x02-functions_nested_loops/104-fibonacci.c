@@ -10,19 +10,19 @@
  */
 int main(void)
 {
-	unsigned long num1 = 1, n = 0, num2 = 2;
+	double num1 = 1, n = 0, num2 = 2;
 	int a;
 
-	printf("%lu, %lu, ", num1, num2);
+	printf("%f, %f, ", num1, num2);
 	for (a = 1; a < 98; a++)
 	{
 		n = num2;
 		num2 = num1 + num2;
 		num1 = n;
 
-		printf("%lu, ", num2);
+		printf("%f, ", num2);
 	}
-	printf("%lu\n", num2);
+	printf("%f\n", num2);
 
 	return (0);
 }

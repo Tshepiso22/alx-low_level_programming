@@ -33,7 +33,7 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar(' ');
 			}
-			else if ((a * b) < 1000 && (a *b) >= 100)
+			else if ((a * b) < 1000 && (a * b) >= 100)
 			{
 				_putchar((a * b) + '0');
 				_putchar(',');
@@ -43,4 +43,5 @@ void print_times_table(int n)
 		}
 		_putchar('\n');	
 	}
+	_putchar((n * n) + '0');
 }
