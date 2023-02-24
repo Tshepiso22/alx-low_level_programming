@@ -10,7 +10,7 @@
  */
 void print_number(int n)
 {
-	int a, b, c;
+	int c;
 	
 	if (n < 0)
 	{
@@ -22,13 +22,13 @@ void print_number(int n)
 		_putchar(n + '0');
 	else if (n > 9 && n < 100)
 	{
-		_putchar(n % 10);
-		_putchar(n / 10);
+		_putchar((n % 10) + '0');
+		_putchar((n / 10) + '0');
 	}
 	else if (n > 99 && n < 1000)
 	{
 		c = n % 10;
-		n = n % 10;
+		n = n / 10;
 		_putchar((n / 10) + '0');
 		_putchar((n % 10) + '0');
 		_putchar(c + '0');
