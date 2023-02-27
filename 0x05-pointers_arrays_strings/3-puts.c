@@ -10,5 +10,11 @@
  */
 void _puts(char *str)
 {
-	printf("%s\n", str);
+	int a;
+
+	for (a = 0; a < _strlen(str); a++)
+	{
+		_putchar(str[a]);
+	}
+	_putchar('\n');
 }

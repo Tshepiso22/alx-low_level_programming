@@ -12,7 +12,7 @@ void puts2(char *str)
 {
 	int n;
 
-	for (n = 0; n < strlen(str); n++)
+	for (n = 0; n < _strlen(str); n++)
 	{
 		if (str[n] >= 48 && str[n] <= 57)
 		{
