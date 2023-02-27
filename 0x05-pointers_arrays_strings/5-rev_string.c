@@ -20,5 +20,5 @@ void rev_string(char *s)
 		a++;
 		n--;
 	}
-	s = &b;
+	s = b;
 }
