@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * print_rev - Entry point
+ * print_rev - Entry point 
  * @s: Receives a pointer as argument
  *
  * Description: Prints a string in reverse
