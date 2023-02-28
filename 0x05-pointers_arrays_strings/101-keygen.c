@@ -22,7 +22,7 @@ int main(void)
 
 	random = rand() % 4;
 	srand((unsigned int)(time(NULL)));	
-	for (i = 0; i < numm; i++)
+	for (i = 0; i < num; i++)
 	{
 		if (random == 1)
 		{
@@ -44,7 +44,7 @@ int main(void)
 		}
 		else
 		{
-			password[i] = letter[rand();
+			password[i] = letter[rand()];
 			random = rand() % 4;
 			printf("%c", password[i]);
 		}
