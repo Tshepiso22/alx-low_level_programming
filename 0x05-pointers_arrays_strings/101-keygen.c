@@ -22,9 +22,9 @@ int main(void)
 	char password[num];
 	random = rand() % 4;
 	
-	for (i = 0; i < N; i++)
+	for (i = 0; i < numm; i++)
 	{
-		if (random == 1);
+		if (random == 1)
 		{
 			password[i] = numbers[rand() % 10];
 			random = rand() % 4;
