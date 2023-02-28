@@ -13,12 +13,12 @@
  */
 int main(void)
 {
-	int i = 0, num = 8, random = 0;
+	int i = 0, num = 16, random = 0;
 	char numbers[10] = "0123456789";
 	char letter[26] = "abcdefghijklmnoqprstuvwyzx";
 	char c_letter[26] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
 	char symbols[10] = "!@#$^&*?";
-	char password[8];
+	char password[16];
 
 	random = rand() % 4;
 	srand((unsigned int)(time(NULL)));	
