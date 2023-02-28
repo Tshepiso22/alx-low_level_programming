@@ -10,21 +10,18 @@
  */
 int _atoi(char *s)
 {
-	int num = 0, a = 0;
+	int num = 0, sign = 1, a = 0;
 
 	while (s[a] != '\0')
 	{
+		if (s[a] == '-')
+			num = num * -1;
+
 		if (s[a] >= 48 && s[a] <= 57)
 		{
-			if (s[a - 1] == '-')
-			{
-				num = num * 10 - 48 + s[a];
-				num = num * -1;	
-			}
-			else	
-				num = num * 10 - 48 + s[a];
+			num = num * 10 - 48 + s[a];
 		}
 		a++;	
 	}
-	return (num);
+	return (num * sign);
 }
