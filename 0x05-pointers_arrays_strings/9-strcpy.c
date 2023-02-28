@@ -2,8 +2,8 @@
 
 /**
  * _strcpy - Entry point
- * dest: A pointer or string to be altered
- * src: A string or pointer to be copied in src 
+ * @dest: A pointer or string to be altered
+ * @src: A string or pointer to be copied in src
  *
  * Description: Pointer to a pointer
  *
