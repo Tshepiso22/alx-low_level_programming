@@ -13,13 +13,13 @@
  */
 int main(void)
 {
-	int i = 0, random = 0;
+	int i = 0, num = 8, random = 0;
 	srand((unsigned int)(time(NULL)));
 	char numbers[] = "0123456789";
-	char letter[] = "abcdefghijklmnoqprstuvwyzx";
-	char c_letter[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
-	char symbols[] = "!@#$^&*?";
-	char password[N];
+	char letter[27] = "abcdefghijklmnoqprstuvwyzx";
+	char c_letter[27] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
+	char symbols[11] = "!@#$^&*?";
+	char password[num];
 	random = rand() % 4;
 	
 	for (i = 0; i < N; i++)
