@@ -10,7 +10,7 @@
  */
 int _atoi(char *s)
 {
-	int num = 0; int a = 0;
+	int num = 0, a = 0;
 
 	while (s[a] != '\0')
 	{
@@ -18,6 +18,7 @@ int _atoi(char *s)
 		{
 			num = num * 10 + s[a];
 		}
+		a++;	
 	}
 	return (num);
 }
