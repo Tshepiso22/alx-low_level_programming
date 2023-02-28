@@ -2,7 +2,7 @@
 
 /**
  * puts_half - Entry point
- * str: Receives a string to be outputted
+ * @str: Receives a string to be outputted
  *
  * Description: Prints half if a string
  *

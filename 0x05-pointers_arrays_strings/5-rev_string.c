@@ -14,7 +14,7 @@ void rev_string(char *s)
 	int c = 0;
 	char *b = s;
 
-	while (c < n)
+	while (c <= n)
 	{
 		s[a] = b[n];
 		a++;
