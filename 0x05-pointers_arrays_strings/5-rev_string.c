@@ -10,11 +10,11 @@
  */
 void rev_string(char *s)
 {
-	int n = strlen(s), a = 0;
-	int c = strlen(s) + 1;
-	char b[c];
+	int n = strlen(s) - 1, a = 0;
+	int c = 0;
+	char *b;
 
-	while (a < n)
+	while (c < n)
 	{
 		b[a] = s[n];
 	
