@@ -2,7 +2,7 @@
 
 /**
  * puts_half - Entry point
- * *str: Receives as argument
+ * str: Receives as argument
  *
  * Description: Prints half if a string
  *
@@ -11,14 +11,14 @@
 void puts_half(char *str)
 {
 	int n, a = strlen(str);
-	
+
 	if (strlen(str) % 2 == 0)
 		n = strlen(str) / 2;
 	else
 		n = (strlen(str) / 2) + 1;
-	for ( ; n <= a; n++)
+	for ( ; n < a; n++)
 	{
 		_putchar(str[n]);
 	}
 	_putchar('\n');
-}	
+}
