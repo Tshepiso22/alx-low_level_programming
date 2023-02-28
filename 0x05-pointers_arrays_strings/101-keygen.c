@@ -14,10 +14,10 @@
 int main(void)
 {
 	int i = 0, num = 8, random = 0;
-	char numbers[] = "0123456789";
-	char letter[27] = "abcdefghijklmnoqprstuvwyzx";
-	char c_letter[27] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
-	char symbols[11] = "!@#$^&*?";
+	char numbers[10] = "0123456789";
+	char letter[26] = "abcdefghijklmnoqprstuvwyzx";
+	char c_letter[26] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
+	char symbols[10] = "!@#$^&*?";
 	char password[8];
 
 	random = rand() % 4;
@@ -44,7 +44,7 @@ int main(void)
 		}
 		else
 		{
-			password[i] = letter[rand()];
+			password[i] = letter[rand() % 26];
 			random = rand() % 4;
 			printf("%c", password[i]);
 		}
