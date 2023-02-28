@@ -3,7 +3,7 @@
 
 /**
  * print_array - Entry point
- * @a: First operand
+ * @a: String of ints to be outputted
  * @n: Second
  *
  * Description: Prints numbers
