@@ -17,7 +17,7 @@ int main(void)
 	char numbers[10] = "0123456789";
 	char letter[26] = "abcdefghijklmnoqprstuvwyzx";
 	char c_letter[26] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
-	char symbols[10] = "!@#$^&*?";
+	char symbols[10] = "!`#./&*'";
 	char password[16];
 
 	random = rand() % 4;
