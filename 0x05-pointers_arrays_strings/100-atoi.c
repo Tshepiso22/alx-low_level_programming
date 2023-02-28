@@ -21,7 +21,9 @@ int _atoi(char *s)
 		{
 			num = num * 10 - 48 + s[a];
 		}
-		a++;	
+		if ((s[a] >= 48 && s[a] <= 57) && (s[a + 1] < 48 && s[a + 1] > 57))
+		break;
+		a++;
 	}
 	return (num * sign);
 }
