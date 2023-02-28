@@ -11,7 +11,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	dest = src;
-	strcat(dest, "\0");
+	strcpy(dest, src);
+
 	return (dest);
 }

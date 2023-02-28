@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * print_rev - I've not got a reverse gear
+ * print_rev - Prints a string in reverse
  * @s: Receives a pointer as argument
  *
  * Description: Prints a string in reverse
