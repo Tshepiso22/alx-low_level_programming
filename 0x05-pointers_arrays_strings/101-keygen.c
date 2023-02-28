@@ -14,14 +14,14 @@
 int main(void)
 {
 	int i = 0, num = 8, random = 0;
-	srand((unsigned int)(time(NULL)));
 	char numbers[] = "0123456789";
 	char letter[27] = "abcdefghijklmnoqprstuvwyzx";
 	char c_letter[27] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
 	char symbols[11] = "!@#$^&*?";
 	char password[num];
+
 	random = rand() % 4;
-	
+	srand((unsigned int)(time(NULL)));	
 	for (i = 0; i < numm; i++)
 	{
 		if (random == 1)
