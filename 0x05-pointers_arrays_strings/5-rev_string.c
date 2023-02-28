@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * rev_string - Entry point
+ * rev_string - Reverses a string
  * @s: Receives a string as argument
  *
  * Description: Reverses a string
@@ -16,10 +16,7 @@ void rev_string(char *s)
 
 	while (c < n)
 	{
-		b[a] = s[n];
-		s[n] = s[a];
-		s[a] = b[a];
-
+		s[a] = b[n];
 		a++;
 		n--;
 	}

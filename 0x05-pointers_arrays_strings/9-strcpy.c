@@ -2,8 +2,8 @@
 
 /**
  * _strcpy - Entry point
- * dest: First operand
- * src: second operand
+ * dest: A string
+ * src: A string 
  *
  * Description: Pointer to a pointer
  *
