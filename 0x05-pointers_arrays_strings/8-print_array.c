@@ -3,10 +3,10 @@
 
 /**
  * print_array - Entry point
- * @*a: First operand
+ * @a: First operand
  * @n: Second
  *
- * Deacription: Prints numbers
+ * Description: Prints numbers
  *
  * Return: void
  */

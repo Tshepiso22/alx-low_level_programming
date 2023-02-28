@@ -10,9 +10,9 @@
  */
 void puts2(char *str)
 {
-	int n;
+	int n, a = strlen(str);
 
-	for (n = 0; n < _strlen(str); n++)
+	for (n = 0; n < a; n++)
 	{
 		if (str[n] >= 48 && str[n] <= 57)
 		{

@@ -10,10 +10,9 @@
  */
 void rev_string(char *s)
 {
-	char b[strlen(s) + 1];
 	int n = strlen(s), a = 0;
-
-	while (a < strlen(s))
+	char b[n + 1];
+	while (a < n)
 	{
 		b[a] = s[n];
 	
