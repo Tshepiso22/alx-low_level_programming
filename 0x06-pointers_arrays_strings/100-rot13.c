@@ -9,7 +9,7 @@
  *
  * Return: Encoded string
  */
-char *rot13(char *)
+char *rot13(char *str)
 {
 	int a = 0, b = 0, value = 13;
 	char upper1[14] = "ABCDEFGHIJKLM";
@@ -24,6 +24,7 @@ char *rot13(char *)
 			if (str[a] == upper1[b] || str[a] == lower1[b])
 				str[a] = lower2[b];
 		}
+		a++;	
 	}
 	return (str);
 }

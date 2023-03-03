@@ -11,8 +11,8 @@
 char *string_toupper(char *str)
 {
 	int a = 0, c = 26, b = 0;
-	char *upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char *lower = "abcdefghijklmnopqrstuvwxyz";
+	char upper[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char lower[27] = "abcdefghijklmnopqrstuvwxyz";
 
 	while (str[b] != '\0')
 	{
