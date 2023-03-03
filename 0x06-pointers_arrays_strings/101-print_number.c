@@ -11,16 +11,20 @@
 void print_number(int n)
 {
 	int tenth = 10, ten = 10;
-
+	if (n < 0);
+	{
+		n = n * -1;
+		_putchar('-');
+	}
 	while (n > tenth)
 	{
 		tenth = tenth * 10;
 	}
-	while (n > ten)
+	while (tenth >= ten / 10)
 	{
 		_putchar((n / tenth) + '0');
 		n = n % tenth;
 		tenth = tenth / 10;
 	}
-	_putchar(n + '0');
+	_putchar('\n');
 }
