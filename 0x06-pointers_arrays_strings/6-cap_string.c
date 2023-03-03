@@ -8,9 +8,9 @@
  *
  * Return: Updated string
  */
-char *cap_string(char *)
+char *cap_string(char *str)
 {
-	int a = 0, g, d = 26, c = 10;
+	int a = 0, g, d = 26, b, c = 10;
 	char upper[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char lower[27] = "abcdefghijklmnopqrstuvwxyz";
 	char sep[11] = ".!?;(){}, ";

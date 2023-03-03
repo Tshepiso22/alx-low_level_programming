@@ -10,7 +10,7 @@
  *
  * Return: The appended string
  */
-char *strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a = 0, b = 0;
 
