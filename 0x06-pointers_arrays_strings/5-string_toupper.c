@@ -19,7 +19,7 @@ char *string_toupper(char *str)
 		for ( ; a < c; a++)
 		{
 			if (str[b] == lower[a])
-				str[b] = uper[a];
+				str[b] = upper[a];
 		}
 	}
 	return (str);
