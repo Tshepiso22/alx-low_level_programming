@@ -13,7 +13,7 @@ char *rot13(char *str)
 {
 	int a = 0, b = 0, value = 13;
 	char upper1[14] = "ABCDEFGHIJKLM";
-	char upper2[14] = "NOPQRSTUVWXYZ";
+/*	char upper2[14] = "NOPQRSTUVWXYZ"; */
 	char lower1[14] = "abcdefghijklm";
 	char lower2[14] = "nopqrstuvwxyz";
 

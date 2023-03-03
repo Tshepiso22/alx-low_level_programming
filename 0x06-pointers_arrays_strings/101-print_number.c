@@ -22,11 +22,10 @@ void print_number(int n)
 	{
 		tenth = tenth * 10;
 	}
-	while (tenth >= ten / 10)
+	while (tenth >= ten / 10 && n > ten)
 	{
 		_putchar((n / tenth) + '0');
 		n = n % tenth;
 		tenth = tenth / 10;
 	}
-	_putchar('\n');
 }

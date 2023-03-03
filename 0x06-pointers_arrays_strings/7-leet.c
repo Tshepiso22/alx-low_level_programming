@@ -12,7 +12,7 @@ char *leet(char *str)
 {
 	char upper[6] = "AEOTL";
 	char lower[6] = "aeotl";
-	char num[6] = "43071";	
+	char num[6] = "43071";
 	int a = 0, c = 5, b;
 
 	while (str[a] != '\0')
@@ -22,7 +22,7 @@ char *leet(char *str)
 			if (str[a] == upper[b] || str[a] == lower[b])
 				str[a] = num[b];
 		}
-		a++;	
+		a++;
 	}
 	return (str);
 }
