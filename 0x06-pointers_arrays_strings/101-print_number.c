@@ -16,6 +16,8 @@ void print_number(int n)
 		n = n * -1;
 		_putchar('-');
 	}
+	if (n > 0 && n < 10)
+		_putchar(n + '0');	
 	while (n > tenth)
 	{
 		tenth = tenth * 10;
